@@ -13,7 +13,7 @@ This script was created out of the need to collect open source malicious domain(
 
 # Usage
 
-Produce a master file from the provided list 
+Produce a master file from the default provided list (URL-list.txt)
 ```
 $ cmd.exe python script.py 
 ```
