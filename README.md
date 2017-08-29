@@ -12,10 +12,20 @@ This script was created out of the need to collect open source malicious domain(
 * [License and Copyright](#license-and-copyright)
 
 # Usage
+
+Produce a master file from the provided list 
 ```
-$ git clone https://github.com/kudelskisecurity/scannerl.git
-$ cd scannerl
-$ ./build.sh
+$ cmd.exe python script.py 
+```
+
+Troubleshoot this script with an additional export of a dump of each URL and a running debug Log
+```
+$ cmd.exe python script.py -d 
+```
+
+Utilize your own list of domains to correlate and aggregate 
+```
+$ cmd.exe python script.py  - i  newListofURLS2Check.txt 
 ```
 
 # Contributing
