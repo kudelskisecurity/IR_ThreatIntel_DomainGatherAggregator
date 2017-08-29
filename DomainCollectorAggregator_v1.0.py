@@ -101,7 +101,7 @@ else:
 if Args.whitelist:
 	whiteList = Args.whiteList
 else:
-	whiteList = 'WhiteList.txt'
+	whiteList = 'whiteListDomains.txt'
 
 if Args.type:
 	theType =  Args.type
@@ -114,7 +114,7 @@ thePath = Args.path
 valid_domain_name_regex = re.compile('(([\da-zA-Z])([\w-]{,62})\.){,127}(([\da-zA-Z])[\w-]{,61})?([\da-zA-Z]\.((xn\-\-[a-zA-Z\d]+)|([a-zA-Z]{2,})))', re.IGNORECASE)
 
 URLS = open(urlList,'r')
-#WhiteList = open('WhiteList.txt','r')
+
 with open(whiteList) as f:
 	WhiteList = f.readlines()
 mastercount = 0
