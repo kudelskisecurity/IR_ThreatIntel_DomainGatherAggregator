@@ -1,11 +1,7 @@
-# IR_ThreatIntel_DomainGatherAggregator
-This script was created out of the need to collect open source malicious domain(s) for use with Threat Intel application and proactive containment strategies (like DNS Sink-holing). 
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-# Why use Scannerl
-Description 
-
+# IR_ThreatIntel_DomainGatherAggregator
+This script was created out of the need to collect open source malicious domain(s) for use with Threat Intel application and proactive containment strategies (like DNS Sink-holing). 
 
 ---
 
