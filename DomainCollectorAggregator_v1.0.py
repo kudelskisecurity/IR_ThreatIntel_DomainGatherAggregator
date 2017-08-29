@@ -1,6 +1,6 @@
 #!/bin/python
 """
-Malicious Domain Correlator 
+Threat Intel Domain Gather & Aggregator - DomainCollectorAggregator_v1.0.py
 
 Used to aggregate open-source black listed domains into a single normalized file 
 
